@@ -1,0 +1,993 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    }
+/******************************************************************************/
+root { 
+    display: block;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    }
+
+/** DIV com SCROLL ******************************************************************************/
+
+div.scroll {
+    height: 175px;
+    width: 370px;
+    overflow: auto;
+    padding: 8px;
+}
+/* Lateral esquerda das telas *****************************************************************************/
+
+.box_esquerdo {
+    background-color: #CF3034;
+}
+
+/******************************************************************************/
+a:link {
+        text-decoration: none;
+        color: #000000;
+}
+
+a:active {
+        text-decoration: none;
+        color: #000000;
+    }
+
+a:visited {
+        text-decoration: none;
+        color: #000000;
+    }
+
+a:hover {
+        text-decoration: none;
+        color: #000000; }
+
+/******************************************************************************/
+
+.oButton {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        background: #DCDCDC;
+        color: #000000;
+        font-style: normal;
+        line-height: normal;
+        font-weight:  normal;
+        font-variant: normal;
+        text-transform: none;
+        text-decoration: none;
+        border-style: outset;
+    }
+
+/* BOT�ES ******************************************************************************/
+
+.Botao   {
+	text-align: center;
+	vertical-align: middle;
+	font-size: 12px;
+}
+
+.Botao a {
+    font-size: 11px;
+    color : #EFF3FF;
+	display: block;
+	float: left;
+	vertical-align: middle;
+	text-decoration : none;
+	border: 1px solid #CF3034;
+	padding: 2px 5px 1px 5px;
+    font-weight:  bold;
+    background-color: #1E2B09;
+    height: 15px;
+}
+
+.Botao a:link {
+  color : #EFF3FF;
+}
+
+.Botao a:hover   {
+	color : #FFFFFF;
+	background-color: #4A7A01;
+	border: 1px solid #1E2B09;
+	padding: 3px 4px 0px 6px;
+    
+}
+
+.Botao a:active  {
+    color : #1E2B09;
+	background-color: #CFD6ED;
+}
+
+.Botao a:visited {
+	color : #EFF3FF;
+}
+
+/*------------------------------------*/
+
+#Botao2 {
+	text-align: center;
+	vertical-align: middle;
+}
+
+#Botao2 div.icon_   {
+	margin: 0px;
+}
+
+#Botao2 div.icon_ a {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    color : #EFF3FF;
+	display: block;
+	float: left;
+	vertical-align: middle;
+	text-decoration : none;
+	border: 1px solid #CF3034;
+	padding: 2px 5px 1px 5px;
+    font-weight:  normal;
+    background-color: #1E2B09;
+    height: 40px;
+    width: 102px;
+}
+
+#Botao2 div.icon_ a:link {
+    color : #EFF3FF;
+}
+
+#Botao2 div.icon_ a:hover   {
+	color : #FFFFFF;
+	background-color: #4A7A01;
+	border: 1px solid #1E2B09;
+	padding: 3px 4px 0px 6px;
+
+}
+
+#Botao2 div.icon_ a:active  {
+	color : #EFF3FF;
+}
+
+#Botao2 div.icon_ a:visited {
+	color : #EFF3FF;
+}
+
+#Botao2 div.icon_ img {
+	margin-top: 0px;
+}
+
+#Botao2 div.icon_ span {
+	display: block;
+	padding-top: 0px;
+}
+
+/******************************************************************************/
+/* BOT�O BOT�O ATIVO - MENU LATERAL ******************************************/
+
+.Botao3   {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 12px;
+}
+
+.Botao3 a {
+    font-size: 11px;
+    color : #424242;
+    display: block;
+    float: left;
+    vertical-align: middle;
+    text-decoration : none;
+    border: 1px solid #CCCCCC;
+    padding: 2px 5px 1px 5px;
+    font-weight:  normal;
+    background-color: #FFFFFF;
+    height: 15px;
+    width: 150px;
+}
+
+.Botao3 a:link {
+    color : #424242;
+}
+
+.Botao3 a:hover   {
+    color : #424242;
+    background-color: #E8E8E8;
+    border: 1px solid #CFCFCF;
+    padding: 3px 4px 0px 6px;
+
+}
+
+.Botao3 a:active  {
+    color : #424242;
+    background-color: #CFD6ED;
+}
+
+.Botao3 a:visited {
+    color : #424242;
+}
+
+/******************************************************************************/
+/* BOT�O BOT�O ATIVO - MENU LATERAL ******************************************/
+
+.Botao4   {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 12px;
+}
+
+.Botao4 a {
+    font-size: 11px;
+    color : #424242;
+    display: block;
+    float: left;
+    vertical-align: middle;
+    text-decoration : none;
+    border: 1px solid #EE8262;
+    padding: 2px 5px 1px 5px;
+    font-weight:  normal;
+    background-color: #FF8C69;
+    height: 15px;
+    width: 150px;
+}
+
+.Botao4 a:link {
+  color : #424242;
+}
+
+.Botao4 a:hover   {
+	color : #424242;
+	background-color: #FFE4C4;
+	border: 1px solid #CDB79E;
+	padding: 3px 4px 0px 6px;
+
+}
+
+.Botao4 a:active  {
+    color : #424242;
+	background-color: #CFD6ED;
+}
+
+.Botao4 a:visited {
+	color : #424242;
+}
+
+/******************************************************************************/
+/*BOT�O (DISABLED) DE VERIFICA��O DA PGM DA UNIVERSAL EVOLUTION *******************************************/
+
+.Botao5 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 12px;
+    color: #1E2B09;
+}
+
+.Botao5 a {
+    font-size: 11px;
+    color : #1E2B09;
+	display: block;
+	float: left;
+	vertical-align: middle;
+	text-decoration : none;
+	border: 1px solid #CCCCCC;
+    padding: 2px 5px 1px 5px;
+    font-weight:  normal;
+    background-color: #1E2B09;
+    height: 15px;
+    width: 50px;
+}
+
+.Botao5 a:link {
+  color : #1E2B09;
+}
+
+.Botao5 a:hover   {
+	color : #1E2B09;
+    background-color: #4A7A01;
+	border: 1px solid #CFCFCF;
+	padding: 3px 4px 0px 6px;
+
+}
+
+.Botao5 a:active  {
+    color : #1E2B09;
+	background-color: #1E2B09;
+}
+
+.Botao5 a:visited {
+	color : #1E2B09;
+}
+
+/*----------------------------*/
+.Botao6   {
+	text-align: center;
+	vertical-align: middle;
+	font-size: 12px;
+}
+
+.Botao6 a {
+    font-size: 11px;
+    color : #EFF3FF;
+	display: block;
+	float: left;
+	vertical-align: middle;
+	text-decoration : none;
+	border: 1px solid #CF3034;
+	padding: 2px 5px 1px 5px;
+    font-weight:  bold;
+    background-color: #1E2B09;
+    height: 15px;
+    width:150px;
+}
+
+.Botao6 a:link {
+  color : #EFF3FF;
+}
+
+.Botao6 a:hover   {
+	color : #FFFFFF;
+	background-color: #4A7A01;
+	border: 1px solid #1E2B09;
+	padding: 3px 4px 0px 6px;
+
+}
+
+.Botao6 a:active  {
+    color : #1E2B09;
+	background-color: #CFD6ED;
+}
+
+.Botao6 a:visited {
+	color : #EFF3FF;
+}
+
+/******************************************************************************/
+
+.Botao7   {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 12px;
+}
+
+.Botao7 a {
+    font-size: 11px;
+    color : #424242;
+    display: block;
+    float: left;
+    vertical-align: middle;
+    text-decoration : none;
+    border: 1px solid #CCCCCC;
+    padding: 2px 5px 1px 5px;
+    font-weight:  normal;
+    background-color: #FFFFFF;
+    height: 15px;
+    width: 60px;
+}
+
+.Botao7 a:link {
+  color : #424242;
+}
+
+.Botao7 a:hover   {
+	color : #424242;
+	background-color: #E8E8E8;
+	border: 1px solid #CFCFCF;
+	padding: 3px 4px 0px 6px;
+
+}
+
+.Botao7 a:active  {
+    color : #424242;
+	background-color: #CFD6ED;
+}
+
+.Botao7 a:visited {
+	color : #424242;
+}
+
+/******************************************************************************/
+
+.Botao8   {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 12px;
+}
+
+.Botao8 a {
+    font-size: 11px;
+    color : #424242;
+    display: block;
+    float: left;
+    vertical-align: middle;
+    text-decoration : none;
+    border: 1px solid #CCCCCC;
+    padding: 2px 5px 1px 5px;
+    font-weight:  normal;
+    background-color: #FFFFFF;
+    height: 15px;
+}
+
+.Botao8 a:link {
+    color : #424242;
+}
+
+.Botao8 a:hover   {
+    color : #424242;
+    background-color: #E8E8E8;
+    border: 1px solid #CFCFCF;
+    padding: 3px 4px 0px 6px;
+
+}
+
+.Botao8 a:active  {
+    color : #424242;
+    background-color: #CFD6ED;
+}
+
+.Botao8 a:visited {
+    color : #424242;
+}
+
+/******************************************************************************/
+
+.List001 {
+    font-size: 11px;
+    color : #424242;
+	display: block;
+	float: left;
+	vertical-align: middle;
+	text-decoration : none;
+	border: 1px solid #CF3034;
+	padding: 2px 5px 1px 5px;
+    font-weight:  bold;
+    background-color: #FFFFFF;
+    overflow:auto;
+    height:400px;
+    width:120px;
+
+}
+
+
+.List001_Item{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color : #424242;
+    cursor:pointer;
+}
+
+/******************************************************************************/
+
+.oText {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        background: #FFFFFF;
+        font-style: normal;
+        line-height: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        border-style: groove;
+        text-decoration: none;
+        text-align:left;
+    }
+
+/******************************************************************************/
+
+.oText2 {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        background: #FFFFFF;
+        font-style: normal;
+        line-height: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        border-style: groove;
+        text-decoration: none;
+        text-align:right;
+
+    }
+
+/******************************************************************************/
+
+.oText3 {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        background: #FFFFFF;
+        font-style: normal;
+        line-height: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        text-decoration: none;
+        text-align:right;
+
+    }
+
+/******************************************************************************/
+
+.readonly {
+         background-color:#CCCCCC
+}
+/******************************************************************************/
+
+.oSelect {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        font-style: normal;
+        line-height: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        border-style: groove;
+        text-decoration: none;
+    }
+
+/******************************************************************************/
+
+.oSelectSelecione {
+        color: #666666;
+    }
+
+.oSelectBgcolorEsc {
+        background: #F6F6F6;
+    }
+
+.oSelectBgcolorCla {
+        background: #FFFFFF;
+    }
+
+.oSelectDesabilitado {
+        color: #000000;
+    }
+
+/******************************************************************************/
+
+.oSelect2 {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        font-style: normal;
+        line-height: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        border-style: solid;
+        border-width: 1px;
+        text-decoration: none;
+    }
+
+/******************************************************************************/
+
+.BordaImagem {
+        border:1px solid #CCCCCC;
+    }
+
+/** PRETO 000 ***************************/
+
+.txt_preto_000 {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 9px;
+        font-weight: normal;
+        color: #424242;
+    }
+
+.txt_preto_000 a {
+        color: #424242;
+        text-decoration: none;
+        font-family:Verdana, Arial, Helvetica, sans-serif;
+        font-size: 9px;
+        font-style:normal;
+        font-weight:bold;
+    }
+
+.txt_preto_000 a:hover {
+        color: #424242;
+        text-decoration : underline;
+    }
+
+.txt_preto_000 a:active {
+        color: #424242;
+        text-decoration : underline;
+    }
+
+.txt_preto_000 a:link {
+        text-decoration: none;
+        color: #424242;
+    }
+
+.txt_preto_000 a:visited {
+        text-decoration: none;
+        color: #424242;
+    }
+
+/** PRETO 001 ***************************/
+
+.txt_preto_001 {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        font-weight: normal;
+        color: #424242;
+    }
+
+.txt_preto_001 a {
+        color: #424242;
+        text-decoration: none;
+        font-family:Verdana, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        font-style:normal;
+        font-weight:normal;
+    }
+
+.txt_preto_001 a:hover {
+        color: #424242;
+        text-decoration : underline;
+
+    }
+
+.txt_preto_001 a:active {
+        color: #424242;
+        text-decoration : underline;
+    }
+
+.txt_preto_001 a:link {
+        text-decoration: none;
+        color: #424242;
+    }
+
+.txt_preto_001 a:visited {
+        text-decoration: none;
+        color: #424242;
+    }
+
+/** PRETO 002 ***************************/
+
+.txt_preto_002 {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 30px;
+font-weight: normal;
+color: #424242;
+}
+
+.txt_preto_002 a {
+	color: #424242;
+	text-decoration: none;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	font-style:normal;
+	font-weight:bold;
+}
+
+.txt_preto_002 a:hover {
+	color: #424242;
+	text-decoration : underline;
+
+}
+
+.txt_preto_002 a:active {
+	color: #424242;
+	text-decoration : underline;
+}
+
+.txt_preto_002 a:link {
+	text-decoration: none;
+	color: #424242;
+}
+
+.txt_preto_002 a:visited {
+	text-decoration: none;
+	color: #424242;
+}
+
+/** PRETO 003 ***************************/
+
+.txt_preto_003 {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 13px;
+font-weight: normal;
+color: #424242;
+}
+
+.txt_preto_003 a {
+	color: #424242;
+	text-decoration: none;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-style:normal;
+	font-weight:bold;
+}
+
+.txt_preto_003 a:hover {
+	color: #424242;
+	text-decoration : underline;
+
+}
+
+.txt_preto_003 a:active {
+	color: #424242;
+	text-decoration : underline;
+}
+
+.txt_preto_003 a:link {
+	text-decoration: none;
+	color: #424242;
+}
+
+.txt_preto_003 a:visited {
+	text-decoration: none;
+	color: #424242;
+}
+
+/** VERMELHO ***************************/
+
+.txt_vermelho_001 {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+color: red;
+}
+
+.txt_vermelho_001 a {
+	color: red;
+	text-decoration: none;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style:normal;
+	font-weight:bold;
+}
+
+.txt_vermelho_001 a:hover {
+	color: red;
+	text-decoration : underline;
+
+}
+
+.txt_vermelho_001 a:active {
+	color: red;
+	text-decoration : underline;
+}
+
+.txt_vermelho_001 a:link {
+	text-decoration: none;
+	color: red;
+}
+
+.txt_vermelho_001 a:visited {
+	text-decoration: none;
+	color: red;
+}
+
+/** VERDE ***************************/
+
+.txt_verde_001 {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+color: green;
+}
+
+.txt_verde_001 a {
+	color: green;
+	text-decoration: none;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style:normal;
+	font-weight:bold;
+}
+
+.txt_verde_001 a:hover {
+	color: green;
+	text-decoration : underline;
+
+}
+
+.txt_verde_001 a:active {
+	color: green;
+	text-decoration : underline;
+}
+
+.txt_verde_001 a:link {
+	text-decoration: none;
+	color: green;
+}
+
+.txt_verde_001 a:visited {
+	text-decoration: none;
+	color: green;
+}
+
+/** BRANCO ***************************/
+
+/** txt_branco_001 */
+
+.txt_branco_001 {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-weight: normal;
+color: #FFFFFF;
+}
+
+.txt_branco_001 a {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style:normal;
+	font-weight:bold;
+}
+
+.txt_branco_001 a:hover {
+	color: #FFFFFF;
+	text-decoration : underline;
+
+}
+
+.txt_branco_001 a:active {
+	color: #FFFFFF;
+	text-decoration : underline;
+}
+
+.txt_branco_001 a:link {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.txt_branco_001 a:visited {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+
+/** txt_branco_002 */
+
+.txt_branco_002 {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;
+font-weight: normal;
+color: #FFFFFF;
+}
+
+.txt_branco_002 a {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style:normal;
+	font-weight:bold;
+}
+
+.txt_branco_002 a:hover {
+	color: #FFFFFF;
+	text-decoration : underline;
+
+}
+
+.txt_branco_002 a:active {
+	color: #FFFFFF;
+	text-decoration : underline;
+}
+
+.txt_branco_002 a:link {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.txt_branco_002 a:visited {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+/** txt_azul_000 */
+
+.txt_azul_000 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    color: #1E2B09;
+}
+
+.txt_azul_000 a {
+	color: #1E2B09;
+	text-decoration: none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+}
+
+.txt_azul_000 a:hover {
+	color: #428EFF;
+	text-decoration: none;
+}
+
+.txt_azul_000 a:active {
+	color: #1E2B09;
+	text-decoration: none;
+}
+
+.txt_azul_000 a:link {
+	text-decoration: none;
+	color: #1E2B09;
+}
+
+.txt_azul_000 a:visited {
+	text-decoration: none;
+	color: #1E2B09;
+}
+
+/** txt_azul_001 */
+
+.txt_azul_001 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    font-weight: normal;
+    color: #1E2B09;
+}
+
+.txt_azul_001 a {
+	color: #1E2B09;
+	text-decoration: none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-style: normal;
+	font-weight: normal;
+}
+
+.txt_azul_001 a:hover {
+	color: #1E2B09;
+	text-decoration: none;
+}
+
+.txt_azul_001 a:active {
+	color: #1E2B09;
+	text-decoration: none;
+}
+
+.txt_azul_001 a:link {
+	text-decoration: none;
+	color: #1E2B09;
+}
+
+.txt_azul_001 a:visited {
+	text-decoration: none;
+	color: #1E2B09;
+}
+
+
+/** txt_azul_claro_001 */
+
+.txt_azul_claro_001 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    font-weight: normal;
+    color: #E8EEF7;
+}
+
+.txt_azul_claro_001 a {
+	color: #E8EEF7;
+	text-decoration: none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-style: normal;
+	font-weight: normal;
+}
+
+.txt_azul_claro_001 a:hover {
+	color: #E8EEF7;
+	text-decoration: none;
+}
+
+.txt_azul_claro_001 a:active {
+	color: #E8EEF7;
+	text-decoration: none;
+}
+
+.txt_azul_claro_001 a:link {
+	text-decoration: none;
+	color: #E8EEF7;
+}
+
+.txt_azul_claro_001 a:visited {
+	text-decoration: none;
+	color: #E8EEF7;
+}
