@@ -5,7 +5,7 @@ require_once "../../../money.ini.php";
 
 <html>
   <head>
-    <title>CATEGORIA <?=$sNomeSistema?></title>
+    <title>CATEGORIA 1 <?=$sNomeSistema?></title>
       
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link rel="stylesheet" href="<?=$sUrlRaiz?>/scripts/css/default.css" type="text/css" />
